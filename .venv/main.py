@@ -7,19 +7,17 @@ from pydub.playback import play
 import pygame
 
 
-# Ruta del archivo de audio
+# Ruta del audio
 video = 'C:/Users/david/Downloads/audioejemplo.wav'
-
-# Reproducir el audio original antes de la transcripción
 print("Reproduciendo audio original...")
 
-# Inicializa el mixer de pygame
+
 pygame.mixer.init()
 
-# Cargar el archivo de audio .wav
+# Cargar el archivo de audio
 pygame.mixer.music.load(video)
 
-# Reproducir el archivo de audio
+# Reproducir
 pygame.mixer.music.play()
 
 # Mantener el programa corriendo mientras se reproduce el audio
