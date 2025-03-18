@@ -6,11 +6,9 @@ from pydub import AudioSegment
 from pydub.playback import play
 import pygame
 
-
 # Ruta del audio
 video = 'C:/Users/david/Downloads/audioejemplo.wav'
 print("Reproduciendo audio original...")
-
 
 pygame.mixer.init()
 
